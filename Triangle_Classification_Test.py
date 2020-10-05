@@ -5,7 +5,7 @@ from Triangle_Classification import classify_triangle
 class TriangleClassificationTest(unittest.TestCase):
     def test_triangle_validation(self):
         """
-        Tests that classify_triangle raises ValueError Execptions for invalid input
+        Tests that classify_triangle raises ValueError Exception for invalid input
         """
         with self.assertRaises(ValueError):
             classify_triangle(-1, 1, 1)
